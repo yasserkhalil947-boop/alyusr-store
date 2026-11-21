@@ -1,0 +1,23 @@
+# .NET
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Local settings / secrets
+appsettings.Development.json
+appsettings.Local.json
+.env
+.env.*
+!.env.example
+
+# Local database and backups
+*.dump
+*.backup
+*.bak
+*.sql.gz
+
+# OS/editor
+.DS_Store
+Thumbs.db
